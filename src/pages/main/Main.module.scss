@@ -1,0 +1,87 @@
+@import "../../scssComponents/Mixins.scss";
+
+.main {
+  position: relative;
+  width: 1280px;
+  height: 720px;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  position: absolute;
+  width: 251px;
+  height: 357px;
+  right: 0px;
+  top: 220px;
+  background: #86D3F4;
+
+  .message {
+    margin: 20px 0px;
+    width: 231px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    order: 1;
+  }
+  img {
+    position: static;
+    width: 126px;
+    height: 126px;
+    left: 62.5px;
+    top: 97px;
+    order: 2;
+  }
+  .text {
+    position: static;
+    width: 126px;
+    height: 32px;
+    left: 62.5px;
+    top: 243px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 20px 0px;
+  }
+  .btn {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: static;
+    width: 156px;
+    height: 52px;
+    left: 47.5px;
+    top: 295px;
+
+    background: #000000;
+    color: #86D3F4;
+    order: 4;
+  }
+}
+
+
