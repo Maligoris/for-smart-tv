@@ -1,1 +1,38 @@
 @import "../../scssComponents/Mixins.scss";
+
+.overlay {
+  position: absolute;
+  width: 1280px;
+  @include slideAnimation();
+
+  .closeBtn {
+    position: absolute;
+    left: 91.56%;
+    right: 1.56%;
+    top: 2.78%;
+    bottom: 90%;
+    height: 52px;
+    width: 88px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    background: #ffffff;
+    cursor: pointer;
+    opacity: 0;
+    animation: fade 1s ease 0.2s forwards;
+  }
+
+  .qr2 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 314px;
+    height: 110px;
+    left: 926px;
+    top: 570px;
+    @include fadeAnimation();
+  }
+
+}
