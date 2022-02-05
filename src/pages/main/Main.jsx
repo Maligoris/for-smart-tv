@@ -25,7 +25,7 @@ const Main = (props) => {
           OK
         </button>
       </aside>
-      {overlay ? <GetDoggy ovl={{overlay, setOverlay}}/> : null}}
+      {overlay ? <GetDoggy ovl={{ overlay, setOverlay }} /> : null}
     </div>
   );
 };

@@ -1,0 +1,20 @@
+.phoneNumber {
+  position: static;
+  left: 15.79%;
+  right: 15.79%;
+  top: 20.11%;
+  bottom: 74.62%;
+
+  /* Tel Number */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 37px;
+
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #000000;
+}

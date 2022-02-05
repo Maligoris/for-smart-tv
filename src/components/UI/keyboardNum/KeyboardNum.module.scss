@@ -1,0 +1,50 @@
+.keyboard {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 284px;
+  height: 238px;
+  padding: 20px 0px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+
+  section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    position: static;
+    width: 284px;
+    height: 52px;
+    left: 0px;
+    top: 20px;
+  }
+}
+
+.TEST {
+  /* Auto layout */
+  width: 186px;
+  height: 52px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: static;
+  left: 0%;
+  right: 34.51%;
+  top: 0%;
+  bottom: 0%;
+
+  border: 2px solid #000000;
+  box-sizing: border-box;
+
+  /* Inside auto layout */
+}

@@ -1,0 +1,73 @@
+.checkForm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+
+  position: static;
+  width: 284px;
+  height: 52px;
+  left: 48px;
+  top: 532px;
+
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  margin: 13px 0px;
+
+  .input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+
+  .input + label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+
+  .input + label::before {
+    content: "";
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-left: 10px;
+    border: 2px solid #000000;
+
+    flex-shrink: 0;
+    flex-grow: 0;
+    background-position: center center;
+  }
+  .input:checked + label::before {
+    background-image: url(image/check.svg); 
+    background-repeat: no-repeat;
+  }
+
+  p {
+    position: static;
+    width: 214px;
+    left: 24.65%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    /* Sub text */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+
+    color: #565656;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+}

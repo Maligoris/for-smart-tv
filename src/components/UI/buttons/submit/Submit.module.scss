@@ -1,0 +1,24 @@
+.submitBtn {
+  width: 284px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 19px;
+
+  position: static;
+  left: 12.63%;
+  right: 12.63%;
+  top: 82.8%;
+  bottom: 9.99%;
+
+  border: 1px solid #4e4e4e;
+  box-sizing: border-box;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 6;
+  flex-grow: 0;
+  margin: 13px 0px;
+}
