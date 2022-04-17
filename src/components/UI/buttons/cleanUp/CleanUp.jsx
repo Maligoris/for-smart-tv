@@ -1,8 +1,20 @@
 import React, { useState } from "react";
 import classes from "./CleanUp.module.scss";
 
-const CleanUp = props => {
-  return null
-}
+import { useDispatch } from "react-redux";
+import { deleteLastChar } from "../../../../redux/phoneSlice";
 
-export default CleanUp
+const CleanUp = ({cont, ...props}) => {
+  const dispatch = useDispatch();
+
+  return (
+    <div
+      className={classes.cleanUp}
+      onClick={() => dispatch(deleteLastChar())}
+    >
+      {cont}
+    </div>
+  );
+};
+
+export default CleanUp;

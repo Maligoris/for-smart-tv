@@ -1,0 +1,20 @@
+.cleanUp {
+  /* Auto layout */
+  width: 186px;
+  height: 52px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: static;
+  left: 0%;
+  right: 34.51%;
+  top: 0%;
+  bottom: 0%;
+
+  border: 2px solid #000000;
+  box-sizing: border-box;
+
+  /* Inside auto layout */
+}

@@ -5,6 +5,7 @@ import qr2 from "./image/qr2.png";
 import out from "./image/out.png";
 import PhoneNumberWindow from "../../components/phoneNumberWindow/PhoneNumberWindow";
 
+
 const GetDoggy = ({ ovl, ...props }) => {
   return (
     <div
