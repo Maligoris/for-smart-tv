@@ -1,16 +1,17 @@
 .phoneNumber {
-  position: static;
-  left: 15.79%;
-  right: 15.79%;
-  top: 20.11%;
-  bottom: 74.62%;
+  // left: 15.79%;
+  // right: 15.79%;
+  // top: 20.11%;
+  // bottom: 74.62%;
+  letter-spacing: 3px;
 
   /* Tel Number */
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 32px;
-  line-height: 37px;
+  line-height: 38px;
+  font-stretch: 50%;
 
   /* identical to box height */
   display: flex;

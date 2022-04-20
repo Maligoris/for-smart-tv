@@ -12,9 +12,12 @@
   right: 34.51%;
   top: 0%;
   bottom: 0%;
+  cursor: pointer;
 
   border: 2px solid #000000;
   box-sizing: border-box;
-
-  /* Inside auto layout */
+}
+.cleanUp:hover {
+  background: black;
+  color: white;
 }
