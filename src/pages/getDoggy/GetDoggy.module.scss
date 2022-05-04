@@ -19,7 +19,7 @@
     @include fadeAnimation();
   }
 
-  .box {
+  .closeBox {
     position: absolute;
     left: 91.56%;
     right: 1.56%;
@@ -54,12 +54,12 @@
       transform: rotate(-45deg);
     }
   }
-  .box:hover {
+  .closeBox:hover {
     background-color: black;
   }
 
   // Изменение цвета креста при наведении
-  .box:hover .closeCross:before, .box:hover .closeCross:after{
+  .closeBox:hover .closeCross:before, .closeBox:hover .closeCross:after{
     background-color: white;
   }
 }

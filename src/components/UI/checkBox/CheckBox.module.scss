@@ -16,6 +16,25 @@
   flex-grow: 0;
   margin: 13px 0px;
 
+  .tError {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    /* Text */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #EA0000;
+  }
+
   .input {
     position: absolute;
     z-index: -1;
@@ -46,7 +65,7 @@
     background-repeat: no-repeat;
   }
 
-  p {
+  .tPersonDataAccsept {
     position: static;
     width: 214px;
     left: 24.65%;

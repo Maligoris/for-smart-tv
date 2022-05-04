@@ -1,16 +1,20 @@
 import React, { useState } from "react";
 import classes from "./NumInput.module.scss";
 
-import { useSelector, useDispatch } from "react-redux";
-import { decrement, increment } from "../../../redux/phoneSlice";
+import { useSelector } from "react-redux";
 
 const NumInput = (props) => {
   const phoneNumber = useSelector((state) => state.phone.number);
-  const dispatch = useDispatch();
-
+  const check = useSelector((state) => state.phone.check);
   return (
     <div className={classes.phoneBox}>
-      <p className={classes.phoneNumber}>
+      <p
+        className={
+          check === false
+            ? [classes.phoneNumber, classes.redText].join(" ")
+            : classes.phoneNumber
+        }
+      >
         +7({phoneNumber.slice(0, 3)}){phoneNumber.slice(3, 6)}-
         {phoneNumber.slice(6, 8)}-{phoneNumber.slice(8, 10)}
       </p>
